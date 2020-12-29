@@ -31,6 +31,9 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'sirver/ultisnips'
 Plugin 'lervag/vimtex'
 Plugin 'KeitaNakamura/tex-conceal.vim'
+
+" vimwiki
+" Plugin 'vimwiki/vimwiki'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 call glaive#Install()        " enable this line after the installation of glaive
@@ -127,10 +130,10 @@ let g:indentLine_char = '│'
 " setup for Vim Airline
 let g:airline_theme='luna'
 let g:airline_section_b = '%{strftime("%c")}'
-let g:airline#extension#tabline#enabled = 1
-let g:airline#extension#tabline#left_sep = ' '
-let g:airline#extension#tabline#left_alt_sep = '|'
-let g:airline#extension#tabline#formartter = 'default'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formartter = 'default'
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#show_tab_count = 1
 
