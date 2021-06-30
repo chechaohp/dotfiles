@@ -55,6 +55,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set autoindent
+set visualbell
 
 " indent for special file
 autocmd FileType c,cpp setlocal expandtab shiftwidth=2 softtabstop=2 cindent 
@@ -63,7 +64,7 @@ autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 autoindent
 autocmd BufNewFile,BufRead *.tex IndentLinesDisable
 
 " setup for ycm
-" let g:python3_host_prog = 'D:\anaconda3\python.exe'
+let g:python3_host_prog = '~/anaconda3/bin/python3'
 " let g:ycm_global_ycm_extra_conf = '/Users/ling/.ycm_global_ycm_extra_conf'
 " let g:ycm_auto_trigger=0
 let g:ycm_filetype_blacklist = {
